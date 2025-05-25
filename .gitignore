@@ -1,1 +1,20 @@
-echo -e "__pycache__/\n*.pyc\n.env\nvenv/" > .gitignore
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.env/
+
+# Pytest cache
+.pytest_cache/
+
+# VS Code and IDE config
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
