@@ -50,23 +50,20 @@ Each test asserts that an **error message appears**, and documents which user ty
 
 ## 📁 Project Structure
 
-selenium_project/
-│
-├── pages/
-│   ├── __init__.py
-│   └── login_page.py        # Page Object for login form
-│
-├── tests/
-│   ├── __init__.py
-│   ├── test_login_valid.py  # Tests expected to succeed
-│   └── test_login_invalid.py# Tests expected to fail
-│
-├── conftest.py              # Pytest driver fixture
-├── requirements.txt
-├── reports/
-│   ├── test_report.md       # Markdown test report (via pytest-md)
-│   └── test_report.html     # HTML test report (via pytest-html)
-└── README.md
+- `selenium_project/`
+  - `pages/`
+    - `__init__.py`
+    - `login_page.py` – Page Object for login form
+  - `tests/`
+    - `__init__.py`
+    - `test_login_valid.py` – Tests expected to succeed
+    - `test_login_invalid.py` – Tests expected to fail
+  - `conftest.py` – Pytest driver fixture
+  - `requirements.txt`
+  - `reports/`
+    - `test_report.md` – Markdown report (via pytest-md)
+    - `test_report.html` – HTML report (via pytest-html)
+  - `README.md`
 
 ---
 
